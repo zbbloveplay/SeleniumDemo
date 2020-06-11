@@ -8,9 +8,10 @@ class TestBingSearch:
         self.bing = BingPage()
 
     def teardown(self):
-        self.bing.close()
+        self.bing.util.close_driver()
 
     @allure.suite("必应搜索")
     def test_search(self):
         self.bing.input("hello")
         self.bing.search()
+        assert "hello" in self.bing.util.get_title()
