@@ -27,7 +27,7 @@ class BasePage:
 
     # 关闭driver
     def close(self):
-        sleep(10)
+        sleep(2)
         self._driver.quit()
 
     # 查找元素
