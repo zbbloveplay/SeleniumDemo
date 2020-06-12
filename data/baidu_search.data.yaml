@@ -1,0 +1,6 @@
+"test_search":
+  - ["大块任性", "中文字符"]
+  - ["adfasd", "英文字符"]
+  - ["dsafasdfsadfnsdfsdfjasdjfosjfowjofijowejfowejfowejfowijf", "长字符"]
+  - ["(*´▽｀)ノノ", "颜文字"]
+  - ["👼", "emoji"]

@@ -1,5 +1,6 @@
 from time import sleep
 
+import yaml
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
@@ -144,3 +145,8 @@ class Util:
         最小化浏览器
         """
         self.driver.minimize_window()
+
+    @classmethod
+    def load_yaml(cls, path):
+        with open(path) as f:
+            return yaml.safe_load(f)
