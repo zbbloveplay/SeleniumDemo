@@ -148,5 +148,8 @@ class Util:
 
     @classmethod
     def load_yaml(cls, path):
-        with open(path) as f:
+        """
+        加载yaml文件
+        """
+        with open(path,'r',encoding='UTF-8') as f:  # 如果不写编码方式，会出现 UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position
             return yaml.safe_load(f)

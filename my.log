@@ -1,0 +1,33 @@
+2020-06-23 14:39:40,956 - DEBUG - POST http://127.0.0.1:52267/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-23 14:39:40,958 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52267
+2020-06-23 14:39:43,367 - DEBUG - http://127.0.0.1:52267 "POST /session HTTP/1.1" 200 719
+2020-06-23 14:39:43,368 - DEBUG - Finished Request
+2020-06-23 14:39:43,369 - DEBUG - POST http://127.0.0.1:52267/session/63d1e4fe1b83ae6d8d607b0a6ef006f0/timeouts {"implicit": 5000}
+2020-06-23 14:39:43,372 - DEBUG - http://127.0.0.1:52267 "POST /session/63d1e4fe1b83ae6d8d607b0a6ef006f0/timeouts HTTP/1.1" 200 14
+2020-06-23 14:39:43,373 - DEBUG - Finished Request
+2020-06-23 14:39:43,373 - DEBUG - POST http://127.0.0.1:52267/session/63d1e4fe1b83ae6d8d607b0a6ef006f0/url {"url": "https://www.baidu.com"}
+2020-06-23 14:39:44,286 - DEBUG - http://127.0.0.1:52267 "POST /session/63d1e4fe1b83ae6d8d607b0a6ef006f0/url HTTP/1.1" 200 14
+2020-06-23 14:39:44,286 - DEBUG - Finished Request
+2020-06-23 14:39:44,288 - DEBUG - POST http://127.0.0.1:52267/session/63d1e4fe1b83ae6d8d607b0a6ef006f0/window/maximize {}
+2020-06-23 14:39:45,471 - DEBUG - http://127.0.0.1:52267 "POST /session/63d1e4fe1b83ae6d8d607b0a6ef006f0/window/maximize HTTP/1.1" 200 51
+2020-06-23 14:39:45,471 - DEBUG - Finished Request
+2020-06-23 14:39:47,472 - DEBUG - DELETE http://127.0.0.1:52267/session/63d1e4fe1b83ae6d8d607b0a6ef006f0 {}
+2020-06-23 14:39:47,531 - DEBUG - http://127.0.0.1:52267 "DELETE /session/63d1e4fe1b83ae6d8d607b0a6ef006f0 HTTP/1.1" 200 14
+2020-06-23 14:39:47,532 - DEBUG - Finished Request
+2020-06-23 14:42:46,477 - DEBUG - POST http://127.0.0.1:53513/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-23 14:42:46,478 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:53513
+2020-06-23 14:42:48,699 - DEBUG - http://127.0.0.1:53513 "POST /session HTTP/1.1" 200 720
+2020-06-23 14:42:48,700 - DEBUG - Finished Request
+2020-06-23 14:42:48,700 - DEBUG - POST http://127.0.0.1:53513/session/f2ca73d5afa150b306897c283b15132e/timeouts {"implicit": 5000}
+2020-06-23 14:42:48,703 - DEBUG - http://127.0.0.1:53513 "POST /session/f2ca73d5afa150b306897c283b15132e/timeouts HTTP/1.1" 200 14
+2020-06-23 14:42:48,703 - DEBUG - Finished Request
+2020-06-23 14:42:48,703 - DEBUG - POST http://127.0.0.1:53513/session/f2ca73d5afa150b306897c283b15132e/url {"url": "https://www.baidu.com"}
+2020-06-23 14:42:49,609 - DEBUG - http://127.0.0.1:53513 "POST /session/f2ca73d5afa150b306897c283b15132e/url HTTP/1.1" 200 14
+2020-06-23 14:42:49,610 - DEBUG - Finished Request
+2020-06-23 14:42:49,620 - DEBUG - GET http://127.0.0.1:53513/session/f2ca73d5afa150b306897c283b15132e/url {}
+2020-06-23 14:42:49,630 - DEBUG - http://127.0.0.1:53513 "GET /session/f2ca73d5afa150b306897c283b15132e/url HTTP/1.1" 200 34
+2020-06-23 14:42:49,631 - DEBUG - Finished Request
+2020-06-23 14:42:49,632 - INFO - https://www.baidu.com/
+2020-06-23 14:42:51,634 - DEBUG - DELETE http://127.0.0.1:53513/session/f2ca73d5afa150b306897c283b15132e {}
+2020-06-23 14:42:51,695 - DEBUG - http://127.0.0.1:53513 "DELETE /session/f2ca73d5afa150b306897c283b15132e HTTP/1.1" 200 14
+2020-06-23 14:42:51,697 - DEBUG - Finished Request
